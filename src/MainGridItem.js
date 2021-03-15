@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core";
 const useStyles = makeStyles(theme => ({
 mainContainer: {
 height: 400,
-backgroundImage: "url(https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)",
+backgroundImage: "url(https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)",
 color: theme.palette.common.white,
 backgroundSize: 'cover',
 },

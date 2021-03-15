@@ -3,6 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import Typography         from '@material-ui/core/Typography';
 import { makeStyles }     from '@material-ui/core/styles';
 import MainGridItem       from  './MainGridItem';
+import GridItem           from './GridItem';
 const useStyles = makeStyles(theme => ({
 
 mainGridItem: {
@@ -39,9 +40,7 @@ return (
     </Grid>
     
     <Grid item sm={6} xs={12}>
-       <Typography className={classes.secondRowFirstItem}>
-         second row,first item
-       </Typography>
+       <GridItem />
 
     </Grid>
     <Grid item sm={6} xs={12}>
