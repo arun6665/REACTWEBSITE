@@ -1,6 +1,7 @@
 import Typography from "@material-ui/core/Typography";
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from "@material-ui/core";
+import createBreakpoints from "@material-ui/core/styles/createBreakpoints";
 
 const useStyles = makeStyles(theme => ({
 mainContainer: {
@@ -30,15 +31,18 @@ return (
   <Grid item className={classes.mainItem} md={6}> 
 
     <Typography component='h2' variant='h5'>
-      Hello Coding!!
+      Hello Nepal!!
+      <br />
     </Typography>
-
+<br />
     <Typography variant='body1' paragraph>
-       Do you want to learn coding?
+       Do you want to learn coding,desiging,developing?
+     <br />
+  
+
+       Smash your carrer by joining us!
     </Typography>
-    <Typography variant='body1' paragraph component='h1' variant='h4'>
-      Join Us
-    </Typography>
+   
    
   </Grid>
 

@@ -18,34 +18,34 @@ cardImage: {
 }));
 
 
-export default function GridItem()
+export default function GridItem(props)
 {
 const classes = useStyles();
 return (
 <Card>
   <CardHeader 
-  title="Excel Masterclass"
+  title={props.title}
   subheader="Recommended for you"
   
   />
 
   <CardMedia 
    className={classes.cardImage}
-   image="https://www.stockvault.net/data/2015/11/15/181050/preview16.jpg"
+   image={props.image}
    title="Excel Masterclass"
   />
 
   <CardContent>
      <Typography>
-       In this course,You'll learn about fullstack development from the basics.You will learn about basics of HTML,CSS,JAVASCRIPT to various frameworks such as Laravel,react etc.
+      {props.description}
      </Typography>
   </CardContent>
  
   <CardActions>
 
-   <IconButton>
+   <IconButton aria-label="Visit page">
        <ArrowForward />
-   </IconButton>
+   </IconButton> 
 
   </CardActions>
 
