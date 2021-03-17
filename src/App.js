@@ -5,18 +5,20 @@ import CssBaseline     from  '@material-ui/core/CssBaseline';
 import NavigationBar   from  './NavigationBar';
 import GridLayout      from  './GridLayout';
 import Container       from  '@material-ui/core/Container';
-
+import Footer from   './Footer';
 
 function App() {
   return (
     <div classname ="App">
      <CssBaseline />
      <NavigationBar />
+     
      <Container>
        <main>
           <GridLayout />
         </main>
      </Container>
+     <Footer />
      
     </div>
   );
